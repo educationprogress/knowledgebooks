@@ -1,0 +1,51 @@
+{
+  "_about": "Single source for the reading list's allowed values. Each value is paired with the exact wording used on the page and in the Google Form. Change wording here and in the form together. See docs/reading-list-process.md § 3.2.",
+  "amazon_tag": "",
+  "category": [
+    { "value": "picture-books", "label": "Picture books", "from": 3, "to": 7, "description": "Illustrated books, usually read to a child by an adult.", "form": "Picture book (ages 3–7)" },
+    { "value": "easy-readers", "label": "Easy readers", "from": 5, "to": 7, "description": "Short, simple books for a child learning to read on their own.", "form": "Easy reader (ages 5–7)" },
+    { "value": "chapter-books", "label": "Chapter books", "from": 7, "to": 9, "description": "First books with chapters — short, larger type, for a newly independent reader.", "form": "Chapter book (ages 7–9)" },
+    { "value": "middle-grade", "label": "Middle grade", "from": 9, "to": 12, "description": "Longer books for a confident independent reader.", "form": "Middle grade (ages 9–12)" },
+    { "value": "young-adult", "label": "Young adult", "from": 12, "to": 15, "description": "Longer books for teen readers.", "form": "Young adult (ages 12–15)" },
+    { "value": "new-adult", "label": "New adult", "from": 15, "to": null, "mature": true, "description": "Books for older teens that include sexual content. Reading difficulty alone does not put a book here \u2014 a hard book with none of it belongs in young adult.", "form": "New adult (ages 15+, may include sexual content)" }
+  ],
+  "read_aloud_description": "Books for an adult to read to a child. Children understand harder words and bigger ideas by listening than they can read on their own, so these books can aim higher.",
+  "domain": [
+    { "value": "science", "label": "Science", "description": "Biology, chemistry, earth science, physics and engineering. Biology books may describe reproduction and anatomy in factual terms.", "form": "Science" },
+    { "value": "history", "label": "History", "description": "Past peoples and events. These books may show violence, slavery and war.", "form": "History" },
+    { "value": "civics", "label": "Civics", "description": "How people govern themselves: laws, rights and citizenship.", "form": "Civics" },
+    { "value": "geography", "label": "Geography", "description": "Places, maps, and how people live around the world.", "form": "Geography" },
+    { "value": "mythology", "label": "Mythology", "description": "Myths, legends and fables from around the world.", "form": "Mythology" },
+    { "value": "biography", "label": "Biography", "description": "True stories of real lives.", "form": "Biography" },
+    { "value": "literature", "label": "Literature", "description": "Novels, stories and poems.", "form": "Literature" },
+    { "value": "mathematics", "label": "Mathematics", "description": "Numbers, shapes and patterns.", "form": "Mathematics" },
+    { "value": "art-and-music", "label": "Art and music", "description": "How art and music are made, and who made them.", "form": "Art and music" }
+  ],
+  "format": [
+    { "value": "graphic-novel", "label": "Graphic novel or comic", "form": "Graphic novel or comic" },
+    { "value": "illustrated-book", "label": "Illustrated book", "form": "Illustrated book (not a picture book)" }
+  ],
+  "form": [
+    { "value": "nonfiction", "label": "Nonfiction", "description": "Factual books about real people, events and ideas.", "form": "Nonfiction" },
+    { "value": "fiction", "label": "Fiction", "description": "Stories that teach something real, such as a historical event, a scientific idea or a work of art.", "form": "Fiction" },
+    { "value": "poetry", "label": "Poetry", "description": "Poems and verse.", "form": "Poetry" },
+    { "value": "reference", "label": "Reference", "description": "Books to look things up in, such as atlases.", "form": "Reference" }
+  ],
+  "use": [
+    { "value": "read-aloud", "label": "Good to read aloud", "form": "Good to read aloud" },
+    { "value": "independent", "label": "Independent reading", "form": "Independent reading" },
+    { "value": "class-set", "label": "Class set", "form": "Class set (a teacher could buy one for every student)" },
+    { "value": "reference", "label": "Reference shelf", "form": "Reference shelf" }
+  ],
+  "appeal": [
+    { "value": "boys", "label": "Often popular with boys", "form": "Often popular with boys" },
+    { "value": "girls", "label": "Often popular with girls", "form": "Often popular with girls" },
+    { "value": "classrooms", "label": "Often popular in classrooms", "form": "Often popular in classrooms" }
+  ],
+  "reviewer_role": [
+    { "value": "teacher", "label": "Teacher", "form": "Teacher" },
+    { "value": "educator", "label": "Educator", "form": "Educator" },
+    { "value": "parent", "label": "Parent", "form": "Parent" },
+    { "value": "other", "label": "Other", "form": "Other" }
+  ]
+}
