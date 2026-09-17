@@ -1,0 +1,40 @@
+# Guards the reading list.
+#
+# Books are written into books/ by the Apps Script behind the Google Form, so
+# no human reviews the commit before it lands. This runs the same checks the
+# website's build runs, but here, where the file arrives — a bad entry is
+# caught in this repo instead of breaking the site's build with no obvious
+# reason why. GitHub emails whoever committed.
+name: Reading list check
+
+on:
+  push:
+    paths:
+      - 'books/**'
+      - 'books-vocabulary.json'
+      - 'check-books.py'
+      - '.github/workflows/books-check.yml'
+  pull_request:
+    paths:
+      - 'books/**'
+      - 'books-vocabulary.json'
+      - 'check-books.py'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install
+        run: pip install pyyaml
+
+      # Every book's category, subjects, kind, format and reviewer role must be
+      # a value that exists in books-vocabulary.json, and an Amazon link must
+      # carry CEP's tag.
+      - name: Books are valid
+        run: python3 check-books.py
