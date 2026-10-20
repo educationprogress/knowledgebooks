@@ -14,6 +14,7 @@ list; nothing else in the website repository defines a book.
 | `books/<slug>.md` | One book per file. Front matter only — the body is unused. |
 | `books-vocabulary.json` | Every allowed value and its exact wording. The one file the suggestion form, the publishing script and the website all read. |
 | `check-books.py` | Validates every book against the vocabulary. Run it before opening a pull request: `python3 check-books.py` |
+| `archive/books/` | Books drafted for an earlier version of the list. Not published and not checked; kept to draw on later. |
 
 ## A book file
 
@@ -55,6 +56,18 @@ recognised.
 Because the Apps Script writes here without a human reading the result,
 `check-books.py` runs on every push (`.github/workflows/books-check.yml`) and
 fails the build on any entry that breaks the vocabulary.
+
+## The archive
+
+`archive/books/` holds the 198 books drafted before launch. The launch list
+was chosen separately and came in through the Google Form like any other
+suggestion. Nothing reads the archive: the website, the form's duplicate
+check and `check-books.py` look only at `books/`.
+
+To bring an archived book back, suggest it through the form rather than moving
+the file. The form adds the ISBN, the Amazon link and a review, and it
+records who approved the book. Archived files may use vocabulary values that
+have since changed, so treat them as notes, not finished entries.
 
 ## Licence
 

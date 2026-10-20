@@ -88,8 +88,10 @@ def check(path, data):
 def main():
     files = sorted((ROOT / "books").glob("*.md"))
     if not files:
-        print("No book files found in books/.", file=sys.stderr)
-        return 1
+        # Empty between archiving the old list and publishing the first book of
+        # a new one. The website keeps building from its last copy meanwhile.
+        print("No book files in books/ yet.")
+        return 0
 
     for path in files:
         text = path.read_text(encoding="utf-8")
