@@ -15,6 +15,7 @@
     { "value": "history", "label": "History", "description": "Past peoples and events. These books may show violence, slavery and war.", "form": "History" },
     { "value": "civics", "label": "Civics", "description": "How people govern themselves: laws, rights and citizenship.", "form": "Civics" },
     { "value": "geography", "label": "Geography", "description": "Places, maps, and how people live around the world.", "form": "Geography" },
+    { "value": "economics", "label": "Economics", "description": "Money, trade and work: how people make, buy and sell things.", "form": "Economics" },
     { "value": "mythology", "label": "Mythology", "description": "Myths, legends and fables from around the world.", "form": "Mythology" },
     { "value": "biography", "label": "Biography", "description": "True stories of real lives.", "form": "Biography" },
     { "value": "literature", "label": "Literature", "description": "Novels, stories and poems.", "form": "Literature" },
