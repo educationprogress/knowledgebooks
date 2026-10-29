@@ -4,6 +4,7 @@ author: "Mark Kurlansky"
 year: 1997
 isbn: "9780140275018"
 category: new-adult
+sexual_content: false
 domain: [history, geography, economics]
 form: nonfiction
 use: [independent]

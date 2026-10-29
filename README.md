@@ -39,6 +39,10 @@ must use values that appear in `books-vocabulary.json`. `format`, `appeal`,
 `series`, `year` and `draft` are optional. A file with `draft: true` is kept
 out of the published list.
 
+Every New adult book shows "May include sexual content". Set
+`sexual_content: false` on a New adult book that has none to hide that label;
+the book stays in New adult.
+
 Ages are not stored per book. They come from the book's `category`, which
 carries the age range in `books-vocabulary.json`.
 

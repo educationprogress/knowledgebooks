@@ -4,6 +4,7 @@ author: "Deborah Cadbury"
 year: 2010
 isbn: "9781586488208"
 category: new-adult
+sexual_content: false
 domain: [history, economics]
 form: nonfiction
 use: [independent]

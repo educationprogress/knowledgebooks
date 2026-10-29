@@ -72,7 +72,7 @@ def check(path, data):
     if "year" in data and data["year"] is not None and not isinstance(data["year"], int):
         say("year must be a number")
 
-    for field in ("draft", "placeholder"):
+    for field in ("draft", "placeholder", "sexual_content"):
         if field in data and not isinstance(data[field], bool):
             say(f"{field} must be true or false")
 
