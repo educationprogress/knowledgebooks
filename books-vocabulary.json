@@ -5,9 +5,9 @@
     { "value": "picture-books", "label": "Picture books", "from": 3, "to": 7, "description": "Illustrated books, usually read to a child by an adult.", "form": "Picture book (ages 3–7)" },
     { "value": "easy-readers", "label": "Easy readers", "from": 5, "to": 7, "description": "Short, simple books for a child learning to read on their own.", "form": "Easy reader (ages 5–7)" },
     { "value": "chapter-books", "label": "Chapter books", "from": 7, "to": 9, "description": "First books with chapters — short, larger type, for a newly independent reader.", "form": "Chapter book (ages 7–9)" },
-    { "value": "middle-grade", "label": "Middle grade", "from": 9, "to": 12, "description": "Longer books for a confident independent reader.", "form": "Middle grade (ages 9–12)" },
-    { "value": "young-adult", "label": "Young adult", "from": 12, "to": 15, "description": "Longer books for teen readers.", "form": "Young adult (ages 12–15)" },
-    { "value": "new-adult", "label": "New adult", "from": 15, "to": null, "mature": true, "description": "Books for older teens that include sexual content. Reading difficulty alone does not put a book here \u2014 a hard book with none of it belongs in young adult.", "form": "New adult (ages 15+, may include sexual content)" }
+    { "value": "middle-grade", "label": "Middle grade", "from": 9, "to": 12, "description": "Books for independent readers, includes graphic novels and hard subjects explained at a child's level.", "form": "Middle grade (ages 9–12)" },
+    { "value": "young-adult", "label": "Young adult", "from": 12, "to": 15, "description": "Full-length books written for teenagers, using the vocabulary of books for adults. Hard subjects such as war and injustice are treated in more depth.", "form": "Young adult (ages 12–15)" },
+    { "value": "new-adult", "label": "New adult", "from": 15, "to": null, "mature": true, "description": "Adult books and books written for young adults that may include sexual content. Reading difficulty alone does not put a book here \u2014 a hard book with none of it belongs in young adult.", "form": "New adult (ages 15+, may include sexual content)" }
   ],
   "read_aloud_description": "Books for an adult to read to a child. Children understand harder words and bigger ideas by listening than they can read on their own, so these books can aim higher.",
   "domain": [
